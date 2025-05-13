@@ -5,8 +5,8 @@ on:
     branches:
       - main
   schedule:
-    - cron: '0 0 * * *'  # Запускать каждый день в полночь
-  workflow_dispatch:     # Ручной запуск через Actions
+    - cron: '0 0 * * *'  # Каждый день в полночь
+  workflow_dispatch:      # Ручной запуск
 
 jobs:
   update-versions:
@@ -15,8 +15,6 @@ jobs:
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
-        with:
-          fetch-depth: 0  # Нужно для git diff
 
       - name: Set up Python
         uses: actions/setup-python@v5
@@ -31,16 +29,9 @@ jobs:
       - name: Generate versions.md
         run: python generate_minecraft_versions.py
 
-      - name: Commit and push changes (if any)
-        run: |
-          git config --global user.name "GitHub Actions"
-          git config --global user.email "actions@github.com"
-          
-          # Проверяем, изменился ли файл
-          if git diff --exit-code --quiet temp/versions.md; then
-            echo "No changes detected."
-          else
-            git add temp/versions.md
-            git commit -m "Auto-update Minecraft versions [skip ci]"
-            git push
-          fi
+      - name: Upload versions.md as a standalone artifact (not zipped)
+        uses: actions/upload-artifact@v4
+        with:
+          name: minecraft-versions.md  # Имя артефакта (будет файлом, а не архивом)
+          path: temp/versions.md      # Путь к файлу
+          retention-days: 7           # Сколько дней хранить артефакт
