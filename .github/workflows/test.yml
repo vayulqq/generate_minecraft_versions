@@ -39,7 +39,7 @@ jobs:
 
       - name: Create GitHub Release
         env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GITHUB_TOKEN: ${{ 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 }}
         run: |
           RELEASE_DATE=$(date +%Y-%m-%d)
           gh release create "$RELEASE_DATE" \
