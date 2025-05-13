@@ -1,0 +1,48 @@
+name: Create Minecraft Versions Release
+
+on:
+  push:
+    branches:
+      - main
+  schedule:
+    - cron: '0 0 * * *'
+  workflow_dispatch:
+jobs:
+  create-release:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.13'
+
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install aiohttp
+
+      - name: Run script to generate versions.md
+        run: python generate_minecraft_versions.py
+
+      - name: Create ZIP archive
+        run: |
+          zip -j versions.zip temp/versions.md
+
+      - name: Extract versions.md for release
+        run: |
+          unzip versions.zip -d release
+          mv release/versions.md versions.md
+
+      - name: Create GitHub Release
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          RELEASE_DATE=$(date +%Y-%m-%d)
+          gh release create "$RELEASE_DATE" \
+            --title "Minecraft Versions $RELEASE_DATE" \
+            --notes "Minecraft versions data for $RELEASE_DATE" \
+            versions.md
