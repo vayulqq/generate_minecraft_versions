@@ -5,8 +5,8 @@ on:
     branches:
       - main
   schedule:
-    - cron: '0 0 * * *'  # Каждый день в полночь
-  workflow_dispatch:      # Ручной запуск
+    - cron: '0 0 * * *'
+  workflow_dispatch:
 
 jobs:
   update-versions:
@@ -26,12 +26,12 @@ jobs:
           python -m pip install --upgrade pip
           pip install aiohttp
 
-      - name: Generate versions.md
+      - name: Run script to generate versions.md
         run: python generate_minecraft_versions.py
 
-      - name: Upload versions.md as a standalone artifact (not zipped)
+      - name: Upload versions.md as artifact
         uses: actions/upload-artifact@v4
         with:
-          name: minecraft-versions.md  # Имя артефакта (будет файлом, а не архивом)
-          path: temp/versions.md      # Путь к файлу
-          retention-days: 7           # Сколько дней хранить артефакт
+          name: minecraft-versions
+          path: temp/versions.md
+          retention-days: 7
