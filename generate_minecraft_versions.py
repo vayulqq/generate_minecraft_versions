@@ -63,7 +63,7 @@ async def write_versions(versions):
     logger.info(f"versions.md generated at {versions_path}")
 
 async def process_version(session, version, semaphore):
-    async with semaphore:  # Limit concurrent requests
+    async with semaphore:
         version_id = version["id"]
         version_url = version["url"]
         logger.info(f"Fetching details for version {version_id}")
