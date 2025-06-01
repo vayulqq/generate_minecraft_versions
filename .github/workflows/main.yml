@@ -1,11 +1,8 @@
 name: Update Minecraft Versions
 
 on:
-  push:
-    branches:
-      - main
   schedule:
-    - cron: '0 0 * * *'
+    - cron: '0 */6 * * *'
   workflow_dispatch:
 
 jobs:
@@ -31,12 +28,27 @@ jobs:
       - name: Run script to generate versions.md
         run: python generate_minecraft_versions.py
 
+      - name: Check versions.md hash and move file
+        run: |
+          if [ -f versions.md ]; then
+            old_hash=$(sha256sum versions.md | cut -d ' ' -f 1)
+            new_hash=$(sha256sum temp/versions.md | cut -d ' ' -f 1)
+            if [ "$old_hash" != "$new_hash" ]; then
+              mv temp/versions.md versions.md
+            else
+              echo "No changes in versions.md"
+              rm temp/versions.md
+            fi
+          else
+            mv temp/versions.md versions.md
+          fi
+
       - name: Commit and push updated versions.md
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
           git config --global user.name 'github-actions[bot]'
           git config --global user.email 'github-actions[bot]@users.noreply.github.com'
-          git add temp/versions.md
+          git add versions.md
           git commit -m "Update versions.md with latest Minecraft versions" || echo "Нет изменений для коммита"
           git push origin main
