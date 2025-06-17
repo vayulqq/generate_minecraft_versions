@@ -2,6 +2,7 @@
 
 | Minecraft Version | Server Jar Download URL | Client Jar Download URL |
 |-------------------|-------------------------|-------------------------|
+| 1.21.6 | https://piston-data.mojang.com/v1/objects/6e64dcabba3c01a7271b4fa6bd898483b794c59b/server.jar | https://piston-data.mojang.com/v1/objects/740a125b83dd3447feaa3c5e891ead7fbb21ae28/client.jar |
 | 1.21.6-rc1 | https://piston-data.mojang.com/v1/objects/2794c776ee51c3f3bd6b111ecfe5926b4f49df19/server.jar | https://piston-data.mojang.com/v1/objects/17b028360790879497123e6d3cf5db8069939976/client.jar |
 | 1.21.6-pre4 | https://piston-data.mojang.com/v1/objects/650e7d088d8b243a9159641cef75303587ba36bd/server.jar | https://piston-data.mojang.com/v1/objects/8cbce0cbdc21a9bbeae1750cbc856cf6d1d3fe2f/client.jar |
 | 1.21.6-pre3 | https://piston-data.mojang.com/v1/objects/03f53214df599b9e39a560b94d0df5636858c32f/server.jar | https://piston-data.mojang.com/v1/objects/7b1c07335ebb43588d62863faf7136855913bea5/client.jar |
@@ -744,8 +745,8 @@
 | 1.5.1 | https://launcher.mojang.com/v1/objects/d07c71ee2767dabb79fb32dad8162e1b854d5324/server.jar | https://launcher.mojang.com/v1/objects/047136381a552f34b1963c43304a1ad4dc0d2d8e/client.jar |
 | 1.5 | https://launcher.mojang.com/v1/objects/aedad5159ef56d69c5bcf77ed141f53430af43c3/server.jar | https://launcher.mojang.com/v1/objects/a3da981fc9b875a51975d8f8100cc0c201c2ce54/client.jar |
 | 1.4.7 | https://launcher.mojang.com/v1/objects/2f0ec8efddd2f2c674c77be9ddb370b727dec676/server.jar | https://launcher.mojang.com/v1/objects/53ed4b9d5c358ecfff2d8b846b4427b888287028/client.jar |
-| 1.4.5 | https://launcher.mojang.com/v1/objects/c12fd88a8233d2c517dbc8196ba2ae855f4d36ea/server.jar | https://launcher.mojang.com/v1/objects/7a8a963ababfec49406e1541d3a87198e50604e5/client.jar |
 | 1.4.6 | https://launcher.mojang.com/v1/objects/a0aeb5709af5f2c3058c1cf0dc6b110a7a61278c/server.jar | https://launcher.mojang.com/v1/objects/116758f41b32e8d1a71a4ad6236579acd724bca7/client.jar |
+| 1.4.5 | https://launcher.mojang.com/v1/objects/c12fd88a8233d2c517dbc8196ba2ae855f4d36ea/server.jar | https://launcher.mojang.com/v1/objects/7a8a963ababfec49406e1541d3a87198e50604e5/client.jar |
 | 1.4.4 | https://launcher.mojang.com/v1/objects/4215dcadb706508bf9d6d64209a0080b9cee9e71/server.jar | https://launcher.mojang.com/v1/objects/b9b2a9e9adf1bc834647febc93a4222b4fd6e403/client.jar |
 | 1.4.3 | https://launcher.mojang.com/v1/objects/9be68adf6e80721975df12f2445fa24617328d18/server.jar | https://launcher.mojang.com/v1/objects/f7274b201219b5729055bf85683eb6ef4f8024b4/client.jar |
 | 1.4.2 | https://launcher.mojang.com/v1/objects/5be700523a729bb78ef99206fb480a63dcd09825/server.jar | https://launcher.mojang.com/v1/objects/42d6744cfbbd2958f9e6688dd6e78d86d658d0d4/client.jar |
