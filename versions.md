@@ -4,6 +4,7 @@
 |-------------------|-------------------------|-------------------------|
 | 25w41a | https://piston-data.mojang.com/v1/objects/804aefaf397b417479e89144834e277ebde2ce71/server.jar | https://piston-data.mojang.com/v1/objects/506f7c3162e0e19f4fd915268374379f35ea2591/client.jar |
 | 1.21.10 | https://piston-data.mojang.com/v1/objects/95495a7f485eedd84ce928cef5e223b757d2f764/server.jar | https://piston-data.mojang.com/v1/objects/d3bdf582a7fa723ce199f3665588dcfe6bf9aca8/client.jar |
+| 1.21.10-rc1 | https://piston-data.mojang.com/v1/objects/8de3d0ea7adb85af0f87f764f3dc186cc87736a3/server.jar | https://piston-data.mojang.com/v1/objects/3080c2277872a5a37b0da7f841cf95bacb0457f4/client.jar |
 | 1.21.9 | https://piston-data.mojang.com/v1/objects/11e54c2081420a4d49db3007e66c80a22579ff2a/server.jar | https://piston-data.mojang.com/v1/objects/ce92fd8d1b2460c41ceda07ae7b3fe863a80d045/client.jar |
 | 1.21.9-rc1 | https://piston-data.mojang.com/v1/objects/12b937eebe1a732f9dd1db9ae6443070e1d30045/server.jar | https://piston-data.mojang.com/v1/objects/4cf039bc84f306d0f18e1ebd2e928af82292e8d9/client.jar |
 | 1.21.9-pre4 | https://piston-data.mojang.com/v1/objects/b3aeb3c37aee8d24dde8fbcdba090ccc6987f48f/server.jar | https://piston-data.mojang.com/v1/objects/8e18f8c4678f2ebabebe5900727e2145396eb13f/client.jar |
