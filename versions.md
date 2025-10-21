@@ -2,6 +2,7 @@
 
 | Minecraft Version | Server Jar Download URL | Client Jar Download URL |
 |-------------------|-------------------------|-------------------------|
+| 25w43a | https://piston-data.mojang.com/v1/objects/dac322a1091905430e2a6ade129a4915552455d0/server.jar | https://piston-data.mojang.com/v1/objects/be2ec6160a466eb16ae9ce9ee7261622f4efdd06/client.jar |
 | 25w42a | https://piston-data.mojang.com/v1/objects/d9c6cfd4ba84f5080206259d2563f75796f14470/server.jar | https://piston-data.mojang.com/v1/objects/69479469a0c1ed7cd80ea45ed6c36aa07fc36001/client.jar |
 | 25w41a | https://piston-data.mojang.com/v1/objects/804aefaf397b417479e89144834e277ebde2ce71/server.jar | https://piston-data.mojang.com/v1/objects/506f7c3162e0e19f4fd915268374379f35ea2591/client.jar |
 | 1.21.10 | https://piston-data.mojang.com/v1/objects/95495a7f485eedd84ce928cef5e223b757d2f764/server.jar | https://piston-data.mojang.com/v1/objects/d3bdf582a7fa723ce199f3665588dcfe6bf9aca8/client.jar |
