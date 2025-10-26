@@ -718,7 +718,6 @@
 | 14w02a | https://launcher.mojang.com/v1/objects/b908214fb99891c4f1e77c21b1fcbe4f7cafdd58/server.jar | https://launcher.mojang.com/v1/objects/16fd472f9634bf49d051e4d84676fe4a5498cd14/client.jar |
 | 1.7.4 | https://launcher.mojang.com/v1/objects/61220311cef80aecc4cd8afecd5f18ca6b9461ff/server.jar | https://launcher.mojang.com/v1/objects/900950d8e3217b3a42405d1ecf767dcc31239d69/client.jar |
 | 1.7.3 | https://launcher.mojang.com/v1/objects/707857a7bc7bf54fe60d557cca71004c34aa07bb/server.jar | https://launcher.mojang.com/v1/objects/feaf10fa9da94c388f2c53a2cf31a14406d0c532/client.jar |
-| 13w49a | https://launcher.mojang.com/v1/objects/164c350e011f491f6e12861ee4988ef2ccecfe0e/server.jar | https://launcher.mojang.com/v1/objects/a200562ad380a768fc63ad6c51a05aa2363dffff/client.jar |
 | 13w48b | https://launcher.mojang.com/v1/objects/9ab8a06fe77ed7f553ae3427d304e9f55de339d9/server.jar | https://launcher.mojang.com/v1/objects/064dae8977232b5470127c689e0c9d19c1c16dcd/client.jar |
 | 13w48a | https://launcher.mojang.com/v1/objects/8f43e47eb288d3485f7825c422e9c5bcaf6418af/server.jar | https://launcher.mojang.com/v1/objects/069a7c867e6ebac830c9f3fef42a942ebd1e2204/client.jar |
 | 13w47e | https://launcher.mojang.com/v1/objects/0f08e81b37b2c06ead45f498a7c8efa10a02633a/server.jar | https://launcher.mojang.com/v1/objects/1f9aa6969b4f086bef1232241579312de5c51d7f/client.jar |
