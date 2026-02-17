@@ -103,7 +103,6 @@
 | 24w35a | https://piston-data.mojang.com/v1/objects/93d259fdba93aa7d3c1763cfb0136295087e0de3/server.jar | https://piston-data.mojang.com/v1/objects/23e08d90ceee1b4c8864946479a766e7074f449f/client.jar |
 | 24w34a | https://piston-data.mojang.com/v1/objects/ff16e26392a5ced7cfe52ffdc5461cd646b9b65d/server.jar | https://piston-data.mojang.com/v1/objects/f252db3368f588fa8c946dcbeed712bfe109e816/client.jar |
 | 24w33a | https://piston-data.mojang.com/v1/objects/90f9c80aeef3966343e661a1487b7918c90ae61d/server.jar | https://piston-data.mojang.com/v1/objects/376d3cee0b5043b11163dfac67f0a6197c3e97bc/client.jar |
-| 1.21.1 | https://piston-data.mojang.com/v1/objects/59353fb40c36d304f2035d51e7d6e6baa98dc05c/server.jar | https://piston-data.mojang.com/v1/objects/30c73b1c5da787909b2f73340419fdf13b9def88/client.jar |
 | 1.21.1-rc1 | https://piston-data.mojang.com/v1/objects/e56720aba46f7f07238c4c054a160fc942da9f78/server.jar | https://piston-data.mojang.com/v1/objects/ef1af29241ac595ddb545a98964e59643a5449d5/client.jar |
 | 1.21 | https://piston-data.mojang.com/v1/objects/450698d1863ab5180c25d7c804ef0fe6369dd1ba/server.jar | https://piston-data.mojang.com/v1/objects/0e9a07b9bb3390602f977073aa12884a4ce12431/client.jar |
 | 1.21-rc1 | https://piston-data.mojang.com/v1/objects/902101d2fb0f968b9c0ddb8b8cff9afef23f72c7/server.jar | https://piston-data.mojang.com/v1/objects/4ad5ef18f48b5e901de19fa1767933255e35c5f2/client.jar |
@@ -341,7 +340,6 @@
 | 1.16-pre8 | https://piston-data.mojang.com/v1/objects/d6a747371b200216653be9b4140cd2862eddbb0e/server.jar | https://piston-data.mojang.com/v1/objects/23b14c93185398af577353c47af04248991b72b4/client.jar |
 | 1.16-pre7 | https://piston-data.mojang.com/v1/objects/577f7287642309a2a32e80be395329118dfddb3f/server.jar | https://piston-data.mojang.com/v1/objects/62473fe623906a01b2f7cf4f7c1396ab23697e5f/client.jar |
 | 1.16-pre6 | https://piston-data.mojang.com/v1/objects/8984939f42371a7e614fa48669e308c4cc9ba228/server.jar | https://piston-data.mojang.com/v1/objects/44aa1f291392b002cb7096c71913306f57e318e0/client.jar |
-| 1.16-pre5 | https://piston-data.mojang.com/v1/objects/56081523bca4f7074f111d1e8a9fd0a86d072a2b/server.jar | https://piston-data.mojang.com/v1/objects/424242726ad6c828f47af0ef2a8dc3ac7a91ef96/client.jar |
 | 1.16-pre4 | https://piston-data.mojang.com/v1/objects/018cdde89f8ff3831ce27c6c8dbf6831e99e0e75/server.jar | https://piston-data.mojang.com/v1/objects/67bd747f23f658a442766588d044074c65c41332/client.jar |
 | 1.16-pre3 | https://piston-data.mojang.com/v1/objects/0b5653b65bc494fa55349682cebf50abf0d72ad9/server.jar | https://piston-data.mojang.com/v1/objects/0d7c195c685f8a6172696c9a7f8f4e5d76185528/client.jar |
 | 1.16-pre2 | https://piston-data.mojang.com/v1/objects/8daeb71269eb164097d7d7ab1fa93fc93ab125c3/server.jar | https://piston-data.mojang.com/v1/objects/a1382f4cf8815e3085efb1782cf32ed5cb621b86/client.jar |
@@ -700,7 +698,6 @@
 | 14w21b | https://launcher.mojang.com/v1/objects/b02c5506df94aa5d5200ef063f1bab22ce260c8a/server.jar | https://launcher.mojang.com/v1/objects/02db91714546d082952fb70bb3e2ff9916135569/client.jar |
 | 14w21a | https://launcher.mojang.com/v1/objects/7e26d5c2feb9df58353b942418640164a8cd0fbd/server.jar | https://launcher.mojang.com/v1/objects/8d764e567c25ab9f5c1f1d5f16c0b673f3f06eb6/client.jar |
 | 14w20b | https://launcher.mojang.com/v1/objects/93ff3d1043ecf25eaf7c9626d8cbde7986dde65d/server.jar | https://launcher.mojang.com/v1/objects/09edbf6233a54fcb30656cb6fd77f55209c37041/client.jar |
-| 14w20a | https://launcher.mojang.com/v1/objects/4dfd82a84113cfb7e4b489c52caa68bc3f21198e/server.jar | https://launcher.mojang.com/v1/objects/9f3b303c1de10d3229353471e63e834339f3acbe/client.jar |
 | 1.7.10 | https://launcher.mojang.com/v1/objects/952438ac4e01b4d115c5fc38f891710c4941df29/server.jar | https://launcher.mojang.com/v1/objects/e80d9b3bf5085002218d4be59e668bac718abbc6/client.jar |
 | 1.7.10-pre4 | https://launcher.mojang.com/v1/objects/7c8249c626996c4474afe4f26071a91e7efd825a/server.jar | https://launcher.mojang.com/v1/objects/fc8b2a30a28bbb45dd8a1b0257f51304c102ad13/client.jar |
 | 1.7.10-pre3 | https://launcher.mojang.com/v1/objects/b9fdcbd17407d9eaeedcf4ff79b3121ee40133db/server.jar | https://launcher.mojang.com/v1/objects/9e3d4d71e9827fa2024ec90c065b2120ba80a024/client.jar |
@@ -722,7 +719,6 @@
 | 14w10b | https://launcher.mojang.com/v1/objects/2dd525cb725635b94c763c2efa5e1fe931a0d6d6/server.jar | https://launcher.mojang.com/v1/objects/9520f823ddc8b0aa600f6cbbb72298d905c4c6ab/client.jar |
 | 14w10a | https://launcher.mojang.com/v1/objects/03503dc8c3f615bf8b65d8e1ebbf923e81162e3e/server.jar | https://launcher.mojang.com/v1/objects/bc38e1cc8db9df50d0b5a1a68b74ec1d19450728/client.jar |
 | 14w08a | https://launcher.mojang.com/v1/objects/a2716623b9e2c01cf0a1ec44497cc3279fce8f6a/server.jar | https://launcher.mojang.com/v1/objects/05b9cde52497d1c419ddece4f16784202e45c0f4/client.jar |
-| 1.7.5 | https://launcher.mojang.com/v1/objects/e1d557b2e31ea881404e41b05ec15c810415e060/server.jar | https://launcher.mojang.com/v1/objects/77aa70ac5054cbf1140b6449b579e950d5050c4a/client.jar |
 | 14w07a | https://launcher.mojang.com/v1/objects/de78ac487cf3fb6770e8c15f83e2219d4df851ae/server.jar | https://launcher.mojang.com/v1/objects/d6a73ccba25f4c30d56af73f43a2d3c9a5458a1e/client.jar |
 | 14w06b | https://launcher.mojang.com/v1/objects/0591a5e7e299182c6849e705704095d2a1efe1d5/server.jar | https://launcher.mojang.com/v1/objects/6e5e5c7e131f241c0a830143d133d89815d13692/client.jar |
 | 14w06a | https://launcher.mojang.com/v1/objects/a6a41979ed198086f2c8ae638f26286b2dc931db/server.jar | https://launcher.mojang.com/v1/objects/e6dd656dd57666a500079d6545a77b07b45d5a1b/client.jar |
